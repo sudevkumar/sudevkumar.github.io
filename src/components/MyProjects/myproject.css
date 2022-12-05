@@ -1,0 +1,75 @@
+.project-container {
+  max-width: 1140px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 40px;
+  padding-bottom: 5rem;
+}
+
+.project-card {
+  background: #1a1919;
+  padding: 1.2rem 1rem;
+}
+
+.project-card img {
+  width: 100%;
+}
+
+.project-title {
+  color: #fff;
+  padding: 1rem 0;
+}
+
+.project-details {
+  padding-bottom: 1rem;
+  font-size: 1.1rem;
+  text-align: justify;
+}
+
+.project-details h5 {
+  color: #fff;
+  margin-top: 10px;
+}
+
+.project-btn {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem 0;
+}
+
+.project-btn .btn {
+  padding: 0.5rem 1rem;
+}
+
+.btn-project {
+  padding: 3px 12px;
+  font-size: 1rem;
+  background-color: rgb(248, 217, 15);
+  color: #222;
+  border: 1px solid #fff;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+@media screen and (max-width: 1024px) {
+  .project-container {
+    max-width: 1140px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 40px;
+    padding-bottom: 5rem;
+  }
+}
+
+@media screen and (max-width: 660px) {
+  .project-container {
+    max-width: 1140px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 40px;
+    padding-bottom: 5rem;
+  }
+}

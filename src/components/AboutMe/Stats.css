@@ -1,0 +1,55 @@
+.streak {
+  width: 60%;
+  margin: auto;
+}
+
+.streak a img {
+  width: 100%;
+}
+
+.git-hub-stats {
+  width: 80%;
+  /* height: 300px; */
+  display: flex;
+  margin: auto;
+  gap: 10px;
+}
+
+.git-hub-stats .top-langs {
+  width: 40%;
+  /* border: 1px solid blue; */
+}
+
+.git-hub-stats .show-icons {
+  width: 60%;
+  /* border: 1px solid blue; */
+}
+
+.git-hub-stats div .top-lang img {
+  width: 100%;
+}
+
+.git-hub-stats div .show-icon img {
+  width: 100%;
+}
+
+@media screen and (max-width: 1024px) {
+  .git-hub-stats {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-bottom: 10px;
+  }
+
+  .git-hub-stats .top-langs {
+    width: 100%;
+    /* border: 1px solid blue; */
+  }
+
+  .git-hub-stats .show-icons {
+    width: 100%;
+    /* border: 1px solid blue; */
+  }
+}

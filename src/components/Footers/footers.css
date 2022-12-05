@@ -1,0 +1,79 @@
+.footer {
+  width: 100%;
+  padding: 4rem 0;
+  background-color: rgba(19, 19, 19, 0.8);
+}
+
+.footer-container {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  grid-gap: 40px;
+}
+
+.footer-container-left {
+  height: 100%;
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  /* border: 1px solid red; */
+}
+
+.location {
+  display: flex;
+  margin-bottom: 0.8rem;
+}
+
+.phone {
+  display: flex;
+  margin-bottom: 0.8rem;
+}
+
+.email {
+  display: flex;
+  margin-bottom: 0.8rem;
+}
+
+.footer-container-right {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  /* border: 1px solid red; */
+}
+
+.footer-container-right .link-dn {
+  margin-bottom: 1.5rem;
+}
+
+.footer-container-right .git-hub {
+  margin-left: -0.1px;
+}
+
+@media screen and (max-width: 660px) {
+  .footer-container {
+    max-width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+  }
+
+  h4 {
+    font-size: 11px;
+  }
+
+  .footer-container-left {
+    height: 100%;
+    width: 100%;
+    padding: 1rem;
+  }
+
+  .footer-container-right {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+  }
+}

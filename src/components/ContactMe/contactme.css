@@ -1,0 +1,196 @@
+.contact {
+  height: auto;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.contact-details {
+  width: 85%;
+  height: auto;
+  border: 1px solid rgb(248, 217, 15);
+  margin: auto;
+  padding: 2rem;
+  border-radius: 2rem;
+  display: flex;
+  justify-content: space-around;
+}
+
+.contact-detail {
+  border: 1px solid rgb(248, 217, 15);
+  height: auto;
+  width: 30%;
+  border-radius: 1rem;
+}
+
+.contact-detail .contact-logo {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin-bottom: 3px;
+  margin-top: 20px;
+}
+
+.contact-which h2 {
+  color: #fff;
+  display: flex;
+  justify-content: center;
+}
+
+.contact-via h3 {
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+/* Form */
+
+.forms {
+  height: auto;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.form-heading {
+  width: 90%;
+  margin: auto;
+}
+
+form {
+  border: 1px solid rgb(248, 217, 15);
+  height: auto;
+  width: 50%;
+  border-radius: 1rem;
+  margin: auto;
+  padding: 2rem;
+}
+
+input {
+  width: 90%;
+  padding: 0.9rem;
+  display: block;
+  margin: auto;
+  border-radius: 2rem;
+  outline: none;
+  background-color: transparent;
+  border: 1px solid rgb(248, 217, 15);
+  margin-top: 10px;
+  color: #fff;
+}
+
+textarea {
+  width: 90%;
+  padding: 0.9rem;
+  display: block;
+  margin: auto;
+  border-radius: 2rem;
+  outline: none;
+  background-color: transparent;
+  border: 1px solid rgb(248, 217, 15);
+  resize: none;
+  margin-top: 10px;
+}
+
+.btn-primary {
+  width: 20%;
+  border-radius: 2rem;
+  display: block;
+  margin: auto;
+  margin-top: 10px;
+}
+
+@media screen and (max-width: 1024px) {
+  .contact-details {
+    width: 95%;
+    height: auto;
+    border: 1px solid rgb(248, 217, 15);
+    margin: auto;
+    padding: 2rem;
+    border-radius: 2rem;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .contact-detail {
+    border: 1px solid rgb(248, 217, 15);
+    height: auto;
+    width: 90%;
+    border-radius: 1rem;
+    margin: auto;
+    margin-top: 10px;
+  }
+
+  form {
+    border: 1px solid rgb(248, 217, 15);
+    height: auto;
+    width: 90%;
+    border-radius: 1rem;
+    margin: auto;
+    padding: 2rem;
+  }
+}
+
+@media screen and (max-width: 660px) {
+  .contact-details {
+    width: 95%;
+    height: auto;
+    border: 1px solid rgb(248, 217, 15);
+    margin: auto;
+    padding: 2rem;
+    border-radius: 2rem;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .contact-detail {
+    border: 1px solid rgb(248, 217, 15);
+    height: auto;
+    width: 90%;
+    border-radius: 1rem;
+    margin: auto;
+    margin-top: 10px;
+  }
+
+  .contact-which h2 {
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    font-size: 13px;
+  }
+  
+  .contact-via h3 {
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    font-size: 13px;
+  }
+
+  form {
+    border: 1px solid rgb(248, 217, 15);
+    height: auto;
+    width: 98%;
+    border-radius: 1rem;
+    margin: auto;
+    padding: 2rem;
+  }
+  input, textarea {
+    width: 100%;
+    padding: 0.9rem;
+    display: block;
+    margin: auto;
+    border-radius: 2rem;
+    outline: none;
+    background-color: transparent;
+    border: 1px solid rgb(248, 217, 15);
+    margin-top: 10px;
+    color: #fff;
+  }
+  .btn-primary {
+    width: 30%;
+    border-radius: 2rem;
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+  }
+}
