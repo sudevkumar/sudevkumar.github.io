@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.6a6c84af.css",
-    "main.js": "/static/js/main.a7eb09d3.js",
+    "main.css": "/static/css/main.504df520.css",
+    "main.js": "/static/js/main.749d9bfb.js",
     "static/js/787.8506a6ba.chunk.js": "/static/js/787.8506a6ba.chunk.js",
     "static/media/Me.png": "/static/media/Me.127ee44552a75426f93e.png",
     "static/media/youtube.png": "/static/media/youtube.99ce4dd326679a8b1d9c.png",
@@ -10,12 +10,12 @@
     "static/media/starwar.png": "/static/media/starwar.38125425979b837944fc.png",
     "static/media/Cv.pdf": "/static/media/Cv.caae45106089288da0e2.pdf",
     "index.html": "/index.html",
-    "main.6a6c84af.css.map": "/static/css/main.6a6c84af.css.map",
-    "main.a7eb09d3.js.map": "/static/js/main.a7eb09d3.js.map",
+    "main.504df520.css.map": "/static/css/main.504df520.css.map",
+    "main.749d9bfb.js.map": "/static/js/main.749d9bfb.js.map",
     "787.8506a6ba.chunk.js.map": "/static/js/787.8506a6ba.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6a6c84af.css",
-    "static/js/main.a7eb09d3.js"
+    "static/css/main.504df520.css",
+    "static/js/main.749d9bfb.js"
   ]
 }
