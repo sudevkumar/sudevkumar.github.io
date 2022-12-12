@@ -283,7 +283,6 @@ function Aboutme() {
         >
           <ReactTooltip delayShow={12} html style={{ color: "white" }} />
         </GitHubCalendar>{" "}
-        <Stats />
       </div>
     </div>
   );
