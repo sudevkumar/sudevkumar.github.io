@@ -383,6 +383,30 @@
     margin-top: 20px;
   }
 
+  .educations h1 {
+    font-size: 17px;
+  }
+
+  .git-hub h1 {
+    font-size: 17px;
+    margin-bottom: 10px;
+  }
+
+  .my-skills h1 {
+    font-size: 17px;
+    margin-bottom: 10px;
+  }
+
+  .tech-stacks h1 {
+    font-size: 17px;
+    margin-bottom: 10px;
+  }
+
+  .my-project-projects h1 {
+    font-size: 17px;
+    margin-bottom: 10px;
+  }
+
   .education-container {
     width: 100%;
     height: auto;

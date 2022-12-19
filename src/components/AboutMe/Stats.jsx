@@ -3,7 +3,7 @@ import "./Stats.css";
 
 function Stats() {
   return (
-    <div>
+    <div className="xyz">
       <div className="streak">
         <a href="https://github.com/sudevkumar">
           <img

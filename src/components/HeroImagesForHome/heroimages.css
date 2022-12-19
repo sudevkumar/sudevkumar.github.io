@@ -7,6 +7,7 @@
   width: 100%;
   height: 100vh;
   position: relative;
+  /* border: 1px solid blueviolet; */
 }
 
 .into-img {
@@ -66,6 +67,10 @@
 }
 
 @media screen and (max-width: 660px) {
+  .mask {
+    width: 100%;
+  }
+
   .btn {
     padding: 4px 13px;
   }
@@ -73,6 +78,10 @@
   .btn-btn {
     display: flex;
     flex-direction: column;
+  }
+
+  .btn-btn a {
+    width: 100%;
   }
 
   .hero .content p {
@@ -86,5 +95,16 @@
     padding: 0.6rem 0 1.5rem;
     font-weight: 400;
     text-transform: uppercase;
+  }
+
+  .mask {
+    width: 100%;
+    height: 80vh;
+    position: relative;
+    /* border: 1px solid blueviolet; */
+  }
+
+  .my-project-projects {
+    margin-top: -100px;
   }
 }

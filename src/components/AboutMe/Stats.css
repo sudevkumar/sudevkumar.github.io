@@ -1,10 +1,20 @@
+/* .xyz {
+  height: auto;
+  border: 1px solid #fff;
+  margin-top: 30px;
+} */
+
 .streak {
-  width: 60%;
+  width: 60%; /*kbkbkjbkbk  */
   margin: auto;
+  /* border: 1px solid red; */
+  /* height: 100px; */
+  height: auto;
+  margin-top: 10px;
 }
 
 .streak a img {
-  height: 400px;
+  height: 100%;
   width: 100%;
 }
 
@@ -59,5 +69,27 @@
   .git-hub-stats .show-icons {
     width: 100%;
     /* border: 1px solid blue; */
+  }
+}
+
+@media screen and (max-width: 454px) {
+  .streak {
+    height: auto;
+  }
+
+  .git-hub-stats .top-langs {
+    width: 40%;
+    height: auto;
+    /* border: 1px solid blue; */
+    margin: auto;
+    margin-top: -0.01px;
+  }
+
+  .git-hub-stats .show-icons {
+    width: 70%;
+    height: auto;
+    /* border: 1px solid blue; */
+    margin: auto;
+    margin-top: -130px;
   }
 }

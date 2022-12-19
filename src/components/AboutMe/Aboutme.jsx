@@ -278,8 +278,8 @@ function Aboutme() {
           username="sudevkumar"
           transformData={selectLasthalfYear}
           style={{ color: "white", margin: "auto" }}
-          blockSize={12}
-          fontSize={20}
+          blockSize={22}
+
         >
           <ReactTooltip delayShow={12} html style={{ color: "white" }} />
         </GitHubCalendar>{" "}

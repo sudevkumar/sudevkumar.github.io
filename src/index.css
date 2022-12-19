@@ -1,10 +1,13 @@
 * {
-  margin: 0px;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
 
 body {
+  /* margin: -10px; */
+  /* padding-right: 20px; */
+
   background: #303031;
 }
 

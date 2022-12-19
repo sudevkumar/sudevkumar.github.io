@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import "./navbar.css";
 import { FaBars, FaTimes } from "react-icons/fa";
-import Cv from "../../Assets/Cv.pdf";
+import Cv from "../../Assets/Sudev-kumar-Resume.pdf";
 
 function Navbar() {
   const [click, setClick] = useState(false);
@@ -17,7 +17,17 @@ function Navbar() {
     }
   };
 
+  const handleClickEvent = () => {
+    window.open(
+      "https://drive.google.com/file/d/1-O6Y1qVOGjvnNgXPW2B3MBmI3fowEiCk/view?usp=share_link",
+      "_blank",
+      "noopener,noreferrer"
+    );
+  };
+
   window.addEventListener("scroll", changeColor);
+
+
 
   return (
     <div className={color ? "header header-bg" : "header"}>
@@ -43,7 +53,7 @@ function Navbar() {
         </li>
 
         <li>
-          <a href={Cv} download>
+          <a href={Cv} download onClick={handleClickEvent}>
             Resume
           </a>
         </li>

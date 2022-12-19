@@ -1,5 +1,4 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
 import youtube from "../../Assets/youtube.png";
 import starwar from "../../Assets/starwar.png";
 import gym from "../../Assets/gym.png";
@@ -162,14 +161,14 @@ function MyProjects() {
             </h5>
           </div>
           <div className="project-btn">
-              <a href="https://sudevsmart.netlify.app">
-                <button className="btn">View Project</button>
-              </a>
+            <a href="https://sudevsmart.netlify.app">
+              <button className="btn">View Project</button>
+            </a>
 
-              <a href="https://github.com/sudevkumar/Sudev-projects/tree/main/mobile-shop">
-                <button className="btn">Github</button>
-              </a>
-            </div>
+            <a href="https://github.com/sudevkumar/Sudev-projects/tree/main/mobile-shop">
+              <button className="btn">Github</button>
+            </a>
+          </div>
         </div>
       </div>
     </div>
