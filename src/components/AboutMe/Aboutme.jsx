@@ -277,7 +277,7 @@ function Aboutme() {
             username="sudevkumar"
             transformData={selectLasthalfYear}
             style={{ color: "white", margin: "auto" }}
-            blockSize={22}
+            blockSize={21}
             fontSize={10}
           >
             <ReactTooltip delayShow={12} html style={{ color: "white" }} />
