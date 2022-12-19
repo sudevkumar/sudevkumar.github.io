@@ -279,7 +279,7 @@ function Aboutme() {
           transformData={selectLasthalfYear}
           style={{ color: "white", margin: "auto" }}
           blockSize={22}
-
+          fontSize={10}
         >
           <ReactTooltip delayShow={12} html style={{ color: "white" }} />
         </GitHubCalendar>{" "}

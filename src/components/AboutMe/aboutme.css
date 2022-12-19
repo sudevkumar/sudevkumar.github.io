@@ -248,7 +248,7 @@
 
   .tech-stacks {
     height: auto;
-    width: 90%;
+    width: 75%;
     margin: auto;
     margin-top: 20px;
   }
@@ -260,14 +260,14 @@
 @media screen and (max-width: 849px) {
   .tech-stacks {
     height: auto;
-    width: 95%;
+    width: 75%;
     margin: auto;
     margin-top: 20px;
   }
 
   .tech-card {
     height: 100px;
-    width: 100px;
+    width: 100%;
     background: #fff;
     border-radius: 30px;
     margin: auto;
@@ -276,15 +276,20 @@
     align-items: center;
   }
 
+  .tech-stack-container {
+    width: 90%;
+    /* margin-left: 10px; */
+  }
+
   .tech-card img {
-    width: 80%;
+    width: 60%;
   }
 }
 
-@media screen and (max-width: 660px) {
+@media screen and (max-width: 770px) {
   .about-container {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     width: 90%;
     margin: auto;
     height: 100%;
@@ -293,7 +298,7 @@
   }
 
   .container-left {
-    width: 90%;
+    width: 40%;
     margin: auto;
   }
 
@@ -370,7 +375,7 @@
     margin: auto;
     margin-top: 10px;
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     grid-row-gap: 20px;
     border-radius: 2rem;
   }
@@ -392,6 +397,14 @@
     margin-bottom: 10px;
   }
 
+  .tech-card {
+    width: 50%;
+  }
+
+  .tech-card img {
+    height: 30px;
+  }
+
   .my-skills h1 {
     font-size: 17px;
     margin-bottom: 10px;
@@ -410,7 +423,6 @@
   .education-container {
     width: 100%;
     height: auto;
-    border: 1px solid darkorange;
     padding: 2rem;
     margin: auto;
     margin-top: 20px;
@@ -420,7 +432,6 @@
   .education {
     width: 100%;
     height: auto;
-    border: 1px solid darkorange;
     margin: auto;
     padding: 2rem;
     border-radius: 2rem;

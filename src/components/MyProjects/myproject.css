@@ -84,8 +84,15 @@
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 40px;
     padding-bottom: 5rem;
+    /* margin-top: 100px; */
   }
 }
+
+/* @media screen and (max-width: 1024px){
+  .project-containers{
+    margin-top: 50px;
+  }
+} */
 
 @media screen and (max-width: 450px) {
   .project-container {
@@ -131,5 +138,17 @@
     width: 100%;
     margin: auto;
     margin-top: 10px;
+  }
+}
+
+@media screen and (max-width: 770px) {
+  .project-container {
+    max-width: 1140px;
+    /* width: 100%; */
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    /* grid-gap: 40px; */
+    padding-bottom: 5rem;
   }
 }

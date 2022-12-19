@@ -108,3 +108,17 @@
     margin-top: -100px;
   }
 }
+
+@media screen and (max-width: 770px) {
+  .my-project-projects {
+    margin-top: 450px;
+    /* border: 1px solid red; */
+  }
+}
+
+@media screen and (max-width: 3220px) {
+  .my-project-projects {
+    margin-top: 350px;
+    /* border: 1px solid red; */
+  }
+}

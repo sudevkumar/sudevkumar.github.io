@@ -43,7 +43,6 @@ function HeroImages() {
         </h1>
         <MyProjects />
       </div>
-      {/* <MyProjects /> */}
     </div>
   );
 }
