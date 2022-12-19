@@ -58,8 +58,7 @@
 .project-btn {
   display: flex;
   justify-content: space-between;
-  padding: 0.5rem 0;
-
+  padding: 0.6rem 0;
 }
 
 .project-btn .btn {
