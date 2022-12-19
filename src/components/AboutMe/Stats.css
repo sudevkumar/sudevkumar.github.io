@@ -4,6 +4,7 @@
 }
 
 .streak a img {
+  height: 400px;
   width: 100%;
 }
 
@@ -17,11 +18,18 @@
 
 .git-hub-stats .top-langs {
   width: 40%;
+  height: 300px;
   /* border: 1px solid blue; */
 }
 
+.git-hub-stats .top-langs a img {
+  height: 100%;
+  width: 100%;
+}
+
 .git-hub-stats .show-icons {
-  width: 60%;
+  width: 50%;
+  height: 300px;
   /* border: 1px solid blue; */
 }
 

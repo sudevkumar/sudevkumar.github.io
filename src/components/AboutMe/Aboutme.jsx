@@ -1,9 +1,10 @@
 import React from "react";
 import "./aboutme.css";
-import me from "../../Assets/Me.png";
+import me from "../../Assets/Me.jpeg";
 import { BsFillPatchCheckFill } from "react-icons/bs";
 import GitHubCalendar from "react-github-calendar";
 import ReactTooltip from "react-tooltip";
+import Stats from "./Stats";
 
 function Aboutme() {
   const selectLasthalfYear = (contributions) => {
@@ -78,7 +79,7 @@ function Aboutme() {
             <div className="skills-content">
               <article className="skills-details">
                 <BsFillPatchCheckFill
-                  style={{ color: "rgb(248, 217, 15)" }}
+                  style={{ color: "darkorange" }}
                   className="experince-details-icons"
                 />
                 <div>
@@ -88,7 +89,7 @@ function Aboutme() {
               </article>
               <article className="skills-details">
                 <BsFillPatchCheckFill
-                  style={{ color: "rgb(248, 217, 15)" }}
+                  style={{ color: "darkorange" }}
                   className="experince-details-icons"
                 />
                 <div>
@@ -98,7 +99,7 @@ function Aboutme() {
               </article>
               <article className="skills-details">
                 <BsFillPatchCheckFill
-                  style={{ color: "rgb(248, 217, 15)" }}
+                  style={{ color: "darkorange" }}
                   className="experince-details-icons"
                 />
                 <div>
@@ -108,7 +109,7 @@ function Aboutme() {
               </article>
               <article className="skills-details">
                 <BsFillPatchCheckFill
-                  style={{ color: "rgb(248, 217, 15)" }}
+                  style={{ color: "darkorange" }}
                   className="experince-details-icons"
                 />
                 <div>
@@ -118,7 +119,7 @@ function Aboutme() {
               </article>
               <article className="skills-details">
                 <BsFillPatchCheckFill
-                  style={{ color: "rgb(248, 217, 15)" }}
+                  style={{ color: "darkorange" }}
                   className="experince-details-icons"
                 />
 
@@ -128,7 +129,7 @@ function Aboutme() {
                 </div>
               </article>
               <article className="skills-details">
-                <BsFillPatchCheckFill style={{ color: "rgb(248, 217, 15)" }} />
+                <BsFillPatchCheckFill style={{ color: "darkorange" }} />
                 <div>
                   <h4>DATA STRUCTURE AND ALGORITHM</h4>
                   <small className="small">Intermidient</small>
@@ -136,7 +137,7 @@ function Aboutme() {
               </article>
 
               <article className="skills-details">
-                <BsFillPatchCheckFill style={{ color: "rgb(248, 217, 15)" }} />
+                <BsFillPatchCheckFill style={{ color: "darkorange" }} />
                 <div>
                   <h4>REDUX</h4>
                   <small className="small">Intermidient</small>
@@ -283,6 +284,7 @@ function Aboutme() {
           <ReactTooltip delayShow={12} html style={{ color: "white" }} />
         </GitHubCalendar>{" "}
       </div>
+      <Stats />
     </div>
   );
 }
