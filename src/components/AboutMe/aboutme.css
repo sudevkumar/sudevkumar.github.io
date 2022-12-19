@@ -194,6 +194,7 @@
 .git-hub {
   width: 70%;
   margin: auto;
+  margin-top: 20px;
 }
 
 .git-hub > .hi {

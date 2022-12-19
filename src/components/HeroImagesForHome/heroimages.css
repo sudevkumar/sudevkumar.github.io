@@ -17,8 +17,6 @@
   object-fit: cover;
 }
 
-
-
 .hero .content {
   position: absolute;
   transform: translate(-50%, -50%);
@@ -43,6 +41,14 @@
   margin: 1rem 0.3rem;
 }
 
+.my-project-projects {
+  height: auto;
+  width: 70%;
+  /* border: 1px solid red; */
+  margin: auto;
+  margin-top: 20px;
+}
+
 @media screen and (max-width: 1040px) {
   .hero .content h1 {
     font-size: 2rem;
@@ -60,15 +66,13 @@
 }
 
 @media screen and (max-width: 660px) {
+  .btn {
+    padding: 4px 13px;
+  }
 
-    .btn {
-        padding: 4px 13px;
-      }
-  
-
-  .btn-btn{
-      display: flex;
-      flex-direction: column;
+  .btn-btn {
+    display: flex;
+    flex-direction: column;
   }
 
   .hero .content p {

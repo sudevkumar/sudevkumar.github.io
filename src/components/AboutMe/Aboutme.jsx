@@ -4,7 +4,6 @@ import me from "../../Assets/Me.png";
 import { BsFillPatchCheckFill } from "react-icons/bs";
 import GitHubCalendar from "react-github-calendar";
 import ReactTooltip from "react-tooltip";
-import Stats from "./Stats";
 
 function Aboutme() {
   const selectLasthalfYear = (contributions) => {
@@ -270,8 +269,8 @@ function Aboutme() {
 
       <div className="git-hub">
         <h1 className="flow about-heading">
-          My
-          <span> Github Calender</span>
+          <span> My </span>
+          Github Calender
         </h1>
         <GitHubCalendar
           className="hi"
