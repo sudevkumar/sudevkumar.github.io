@@ -37,10 +37,7 @@ function HeroImages() {
         </div>
       </div>
       <Aboutme />
-      <div className="my-project-projects">
-        <h1 className="flow about-heading">
-          <span>My</span> Projects{" "}
-        </h1>
+      <div className="my-projects-projects">
         <MyProjects />
       </div>
     </div>

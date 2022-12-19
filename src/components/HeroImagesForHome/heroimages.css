@@ -47,7 +47,7 @@
   width: 70%;
   /* border: 1px solid red; */
   margin: auto;
-  margin-top: 20px;
+  /* margin-top: -180px; */
 }
 
 @media screen and (max-width: 1040px) {
@@ -103,22 +103,20 @@
     position: relative;
     /* border: 1px solid blueviolet; */
   }
-
-  .my-project-projects {
-    margin-top: -100px;
-  }
 }
 
 @media screen and (max-width: 770px) {
-  .my-project-projects {
-    margin-top: 450px;
-    /* border: 1px solid red; */
+  .my-projects-projects {
+    width: 85%;
+    margin: auto;
+    margin-top: 350px;
   }
 }
 
-@media screen and (max-width: 3220px) {
-  .my-project-projects {
-    margin-top: 350px;
-    /* border: 1px solid red; */
+@media screen and (max-width: 320px) {
+  .my-projects-projects {
+    width: 85%;
+    margin: auto;
+    margin-top: 10px;
   }
 }
