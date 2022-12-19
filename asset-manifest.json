@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/static/css/main.3647a43f.css",
-    "main.js": "/static/js/main.8c1b0ba2.js",
+    "main.css": "/static/css/main.9b7710d1.css",
+    "main.js": "/static/js/main.752780b0.js",
     "static/js/787.8506a6ba.chunk.js": "/static/js/787.8506a6ba.chunk.js",
-    "static/media/Me.png": "/static/media/Me.127ee44552a75426f93e.png",
     "static/media/youtube.png": "/static/media/youtube.99ce4dd326679a8b1d9c.png",
     "static/media/mart.png": "/static/media/mart.8b01828bd2ce9ed43a90.png",
     "static/media/gym.png": "/static/media/gym.234c22a9f412e0dbf62d.png",
     "static/media/starwar.png": "/static/media/starwar.38125425979b837944fc.png",
+    "static/media/Me.jpeg": "/static/media/Me.91d8190c44a5029fba41.jpeg",
     "static/media/Cv.pdf": "/static/media/Cv.caae45106089288da0e2.pdf",
     "index.html": "/index.html",
-    "main.3647a43f.css.map": "/static/css/main.3647a43f.css.map",
-    "main.8c1b0ba2.js.map": "/static/js/main.8c1b0ba2.js.map",
+    "main.9b7710d1.css.map": "/static/css/main.9b7710d1.css.map",
+    "main.752780b0.js.map": "/static/js/main.752780b0.js.map",
     "787.8506a6ba.chunk.js.map": "/static/js/787.8506a6ba.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3647a43f.css",
-    "static/js/main.8c1b0ba2.js"
+    "static/css/main.9b7710d1.css",
+    "static/js/main.752780b0.js"
   ]
 }
