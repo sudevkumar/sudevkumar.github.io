@@ -37,7 +37,7 @@ function Aboutme() {
           </div>
           {/* Rigth Side */}
           <div className="container-right">
-            <h1>MY NAME IS SUDEV KUMAR & I AM A FULL STACK WEB DEVELOPER.</h1>
+            <h1>MY NAME IS SUDEV KUMAR & I am an FULL STACK WEB DEVELOPER.</h1>
             <p>
               Strong design and integration abilities as well as innate
               problem-solving abilities. Competent in HTML, Css,

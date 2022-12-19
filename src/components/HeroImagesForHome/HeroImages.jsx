@@ -25,7 +25,7 @@ function HeroImages() {
       </div>
       <div className="content">
         <p>Hi, I'm Sudev Kumar</p>
-        <h1>FRONT-END DEVELOPER.</h1>
+        <h1>FULL STACK WEB DEVELOPER.</h1>
         <div className="btn-btn">
           <a href={Cv} download className="btn" onClick={handleClick}>
             Download CV
