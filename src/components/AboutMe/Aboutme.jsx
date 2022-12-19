@@ -47,7 +47,7 @@ function Aboutme() {
           <div className="my-details">
             <div className="my-details-all">
               <p>
-                Age : <span>23</span>
+                Age : <span>24</span>
               </p>
               <p>
                 Gender : <span>Male</span>
