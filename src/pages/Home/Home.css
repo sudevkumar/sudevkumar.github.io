@@ -1,0 +1,149 @@
+.home {
+  grid-template-columns: 4.32fr 7.68fr;
+  align-items: center;
+  /* background-color: var(--first-color); */
+  padding: 40px;
+  height: 100vh;
+}
+
+.home__img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 30px;
+  box-shadow: 0 0 8px hsla(0, 0%, 0%, 0.3);
+  z-index: 1;
+}
+
+.home__data {
+  /* background-color: var(--first-color); */
+  max-width: 600px;
+  margin-inline: auto;
+  padding-top: 20px;
+}
+
+.home__title {
+  position: relative;
+  font-size: var(--h1-font-size);
+  line-height: 1.24;
+  padding-left: 70px;
+}
+
+.home__title span {
+  color: var(--first-color);
+}
+
+.home__title::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 22%;
+  width: 40px;
+  height: 5px;
+  border-radius: 5px;
+  background-color: var(--first-color);
+}
+
+.home__decription {
+  line-height: 2;
+  margin-block: 16px 32px;
+}
+
+.color__block {
+  position: fixed;
+  height: 200%;
+  width: 100%;
+  background-color: var(--first-color);
+  top: -50%;
+  left: -83%;
+  transform: rotate(-15deg);
+}
+
+@media screen and (max-width: 1200px) {
+  .home__data {
+    padding-right: 40px;
+  }
+
+  .home__title {
+    font-size: var(--big-font-size);
+  }
+
+  .home__description {
+    font-size: var(--normal-font-size);
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .home {
+    padding: 20px;
+    grid-template-columns: 5fr 7fr;
+  }
+
+  .home__data {
+    padding-right: 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .home {
+    grid-template-columns: 1fr;
+    justify-items: center;
+    row-gap: 10px;
+  }
+  .color__block {
+    display: none;
+  }
+
+  .home__img {
+    width: 270px;
+    height: 270px;
+    border-radius: 50%;
+    margin-top: auto;
+  }
+
+  .home__content {
+    max-width: 550px;
+    text-align: center;
+    margin-bottom: auto;
+  }
+
+  .home__title {
+    padding-left: 0;
+  }
+
+  .home__title::before {
+    all: unset;
+  }
+
+  .home__title span {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .home__img {
+    width: 230px;
+    height: 230px;
+    border-radius: 50%;
+    margin-top: auto;
+  }
+
+  .home__content {
+    margin-block: auto;
+    text-align: left;
+  }
+
+  .home__title {
+    font-size: var(--h2-font-size);
+  }
+
+  .home__decription {
+    text-align: justify;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  .home__title span {
+    display: inline;
+  }
+}

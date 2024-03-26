@@ -1,0 +1,108 @@
+.style__switcher {
+  position: fixed;
+  left: 0;
+  top: 10%;
+  z-index: 10;
+  background-color: #fff;
+  width: 220px;
+  padding: 15px;
+  box-shadow: 0 0 4px hsl(0, 0%, 80%);
+  transform: translateX(-100%);
+  transition: all 0.3s ease;
+}
+
+.show-switch {
+  transform: translateX(0);
+}
+
+.style__switcher,
+.style__switcher-toggle,
+.theme__toggler {
+  border-radius: 0 5px 5px 0;
+}
+
+.style__switcher-item {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  column-gap: 4px;
+  row-gap: 3px;
+}
+
+.style__switcher-title,
+.style__switcher-toggle,
+.style__switcher-close {
+  color: hsl(0, 0%, 40%);
+}
+
+.style__switcher-title {
+  font-size: var(--small-font-size);
+  font-weight: var(--weight-600);
+  border-bottom: 1px solid hsl(0, 0%, 87%);
+  padding-bottom: 5px;
+  margin-bottom: 15px;
+}
+
+.theme__img {
+  width: 30px;
+  cursor: pointer;
+}
+
+.style__switcher-toggle,
+.theme__toggler {
+  position: absolute;
+  left: 100%;
+  background-color: var(--text-white);
+  height: 50px;
+  width: 50px;
+  font-size: var(--large-font-size);
+  cursor: pointer;
+  display: grid;
+  place-items: center;
+  box-shadow: 0 0 2px hsl(0, 0%, 80%);
+  transition: all 0.3s ease;
+}
+
+.show-switch .style__switcher-toggle,
+.show-switch .theme__toggler {
+  left: -100%;
+}
+
+.style__switcher-toggle {
+  top: 10%;
+}
+
+.theme__toggler {
+  bottom: 10%;
+}
+
+.style__switcher-close {
+  cursor: pointer;
+  font-size: var(--h2-font-size);
+  position: absolute;
+  top: 1%;
+  right: 15px;
+}
+
+@media screen and (max-width: 576px) {
+  .theme__img {
+    width: 25px;
+  }
+
+  .style__switcher-toggle,
+  .theme__toggler {
+    width: 40px;
+    height: 40px;
+  }
+
+  .style__switcher-toggle {
+    top: 15%;
+  }
+
+  .theme__toggler {
+    bottom: 15%;
+  }
+
+  .style__switcher-close {
+    top: 5%;
+  }
+}
