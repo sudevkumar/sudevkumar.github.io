@@ -1,24 +1,24 @@
 {
   "files": {
     "main.css": "/static/css/main.329577c8.css",
-    "main.js": "/static/js/main.9c3bca90.js",
+    "main.js": "/static/js/main.5aed53cb.js",
     "static/js/453.04ec5b8f.chunk.js": "/static/js/453.04ec5b8f.chunk.js",
     "static/media/project-6.jpg": "/static/media/project-6.8b01828bd2ce9ed43a90.jpg",
     "static/media/project-2.jpg": "/static/media/project-2.234c22a9f412e0dbf62d.jpg",
     "static/media/project-5.jpg": "/static/media/project-5.3cac5d969a13bc9b398d.jpg",
     "static/media/project-4.jpeg": "/static/media/project-4.b0e25370cdd764f727c1.jpeg",
     "static/media/project-3.jpeg": "/static/media/project-3.7c07ed28e90ff2b75464.jpeg",
-    "static/media/SudevKumar.pdf": "/static/media/SudevKumar.5d7cd1e32f8f14946f54.pdf",
+    "static/media/SudevKumar.pdf": "/static/media/SudevKumar.ef895468e570cc40af0d.pdf",
     "static/media/project-1.jpeg": "/static/media/project-1.918c765f243eb048f293.jpeg",
     "static/media/home.png": "/static/media/home.ba5cd7296c9b6418b9f2.png",
     "static/media/close.svg": "/static/media/close.5bec4f69e1bbfff50fdfacd4eaff052a.svg",
     "index.html": "/index.html",
     "main.329577c8.css.map": "/static/css/main.329577c8.css.map",
-    "main.9c3bca90.js.map": "/static/js/main.9c3bca90.js.map",
+    "main.5aed53cb.js.map": "/static/js/main.5aed53cb.js.map",
     "453.04ec5b8f.chunk.js.map": "/static/js/453.04ec5b8f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.329577c8.css",
-    "static/js/main.9c3bca90.js"
+    "static/js/main.5aed53cb.js"
   ]
 }
