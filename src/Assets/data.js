@@ -16,6 +16,7 @@ import Work3 from "./assets/project-3.jpeg";
 import Work4 from "./assets/project-4.jpeg";
 import Work5 from "./assets/project-5.jpg";
 import Work6 from "./assets/project-6.jpg";
+import Work7 from "./assets/project-7.png";
 
 import Theme1 from "./assets/purple.png";
 import Theme2 from "./assets/red.png";
@@ -73,8 +74,8 @@ export const personalInfo = [
 
   {
     id: 3,
-    title: "Age : ",
-    description: "25 years",
+    title: "DOB : ",
+    description: "12-6-1999",
   },
 
   {
@@ -110,7 +111,15 @@ export const personalInfo = [
 
 export const resume = [
   {
-    id: 4,
+    id: 1,
+    category: "education",
+    icon: <FaGraduationCap />,
+    year: "2021 - 2023",
+    title: "Master's Degree <span> Mansarover Global University </span>",
+    desc: "Pursued Master Of Computer Application From Mansarover Collage with a CGPA of 7.67.",
+  },
+  {
+    id: 1,
     category: "education",
     icon: <FaGraduationCap />,
     year: "2022 - 2023",
@@ -119,17 +128,17 @@ export const resume = [
   },
 
   {
-    id: 5,
+    id: 2,
     category: "education",
     icon: <FaGraduationCap />,
     year: "2017 - 2020",
     title:
       "Bachelor's Degree <span> Utkal University, Bhubaneswar, Odisha </span>",
-    desc: "Pursued Bachelor's in Computer Application From Ipsar Collage with a CGPA of 7.64.",
+    desc: "Pursued Bachelor's In Computer Application From Ipsar Collage with a CGPA of 7.64.",
   },
 
   {
-    id: 6,
+    id: 3,
     category: "education",
     icon: <FaGraduationCap />,
     year: "2015 - 2017",
@@ -168,7 +177,7 @@ export const skills = [
   {
     id: 5,
     title: "Tailwind Css",
-    percentage: "75",
+    percentage: "85",
   },
 
   {
@@ -180,7 +189,7 @@ export const skills = [
   {
     id: 7,
     title: "Node Js",
-    percentage: "65",
+    percentage: "50",
   },
 
   {
@@ -367,6 +376,35 @@ export const portfolio = [
         title: "Preview : ",
         desc: "Live Site Link",
         link: "https://sudevsmart.netlify.app/",
+      },
+    ],
+  },
+  {
+    id: 7,
+    img: Work7,
+    title: "iPhone 15",
+    details: [
+      {
+        icon: <FiFileText />,
+        title: "Project : ",
+        desc: "iPhone 15",
+      },
+      {
+        icon: <FaGithub />,
+        title: "Tech : ",
+        desc: "Git Hub Link",
+        link: "https://github.com/sudevkumar/Apple",
+      },
+      {
+        icon: <FaCode />,
+        title: "Language : ",
+        desc: "React Js, Tailwind CSS",
+      },
+      {
+        icon: <FiExternalLink />,
+        title: "Preview : ",
+        desc: "Live Site Link",
+        link: "https://66f9620fff441c200807a01b--rad-concha-0f93ba.netlify.app/",
       },
     ],
   },
