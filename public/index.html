@@ -2,42 +2,95 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#000000" />
-    <meta
-      name="description"
-      content="Web site created using create-react-app"
-    />
-    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
-    <!--
-      manifest.json provides metadata used when your web app is installed on a
-      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
-    -->
-    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <!--
-      Notice the use of %PUBLIC_URL% in the tags above.
-      It will be replaced with the URL of the `public` folder during the build.
-      Only files inside the `public` folder can be referenced from the HTML.
 
-      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
-      work correctly both with client-side routing and a non-root public URL.
-      Learn how to configure a non-root public URL by running `npm run build`.
-    -->
-    <title>Sudev Kumar's Portfolio</title>
+    <!-- ── Favicon ── -->
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+
+    <!-- ── Theme ── -->
+    <meta name="theme-color" content="#FFE600" />
+
+    <!-- ── Primary Meta ── -->
+    <title>SU[DEV] KUMAR — Full-Stack Developer</title>
+    <meta name="description" content="Full-Stack Developer @ EVFY. Builds production-grade MERN apps, pushes Lighthouse scores from 33 to 85+, and hits 100/100 SEO. The DEV in the name was not accidental." />
+    <meta name="keywords" content="Sudev Kumar, Full Stack Developer, React, Node.js, MERN, Next.js, Tailwind CSS, MongoDB, Zustand, Typesense, AWS, Vercel, Portfolio" />
+    <meta name="author" content="Sudev Kumar" />
+    <meta name="robots" content="index, follow" />
+
+    <!-- ── Open Graph (WhatsApp, Facebook, LinkedIn previews) ── -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://sudevkumar.github.io/" />
+    <meta property="og:title" content="SU[DEV] KUMAR — Full-Stack Developer" />
+    <meta property="og:description" content="Builds fast apps. Fixes bad scores. Replaces Redux with Zustand. The DEV was not accidental." />
+    <meta property="og:image" content="%PUBLIC_URL%/og-image.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:locale" content="en_IN" />
+    <meta property="og:site_name" content="Sudev Kumar Portfolio" />
+
+    <!-- ── Twitter Card ── -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="SU[DEV] KUMAR — Full-Stack Developer" />
+    <meta name="twitter:description" content="Builds fast apps. Fixes bad scores. Replaces Redux with Zustand. The DEV was not accidental." />
+    <meta name="twitter:image" content="%PUBLIC_URL%/og-image.png" />
+
+    <!-- ── Canonical ── -->
+    <link rel="canonical" href="https://sudevkumar.github.io/" />
+
+    <!-- ── Preconnect for Google Fonts (speeds up font load) ── -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <!-- ── Fonts ── -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Space+Mono:ital,wght@0,400;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- ── Structured Data (Google rich results) ── -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Sudev Kumar",
+        "url": "https://sudevkumar.github.io/",
+        "jobTitle": "Full-Stack Developer",
+        "worksFor": {
+          "@type": "Organization",
+          "name": "EVFY"
+        },
+        "sameAs": [
+          "https://github.com/sudevkumar",
+          "https://wa.me/918328847712"
+        ],
+        "email": "mailto:sudevkumar82@gmail.com",
+        "telephone": "+91-8328847712",
+        "knowsAbout": ["React", "Node.js", "MongoDB", "Next.js", "Tailwind CSS", "AWS", "TypeScript"]
+      }
+    </script>
+
+    <style>
+      /* Prevent flash of unstyled content */
+      body { margin: 0; background: #f5f0e8; }
+      #root:empty::before {
+        content: '> BOOTING SUDEV...';
+        display: block;
+        font-family: 'Space Mono', monospace;
+        font-size: 14px;
+        color: #00FF41;
+        background: #0a0a0a;
+        padding: 40px;
+        min-height: 100vh;
+        box-sizing: border-box;
+      }
+    </style>
   </head>
   <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <noscript>
+      You need JavaScript to run this app. Much like Sudev needs caffeine.
+    </noscript>
     <div id="root"></div>
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
-
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
-
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
   </body>
 </html>
